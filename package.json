@@ -1,0 +1,26 @@
+{
+  "name": "co-op-blocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mnak256/co-op-blocks.git"
+  },
+  "author": "Mainak Dutta, Koustav Pal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mnak256/co-op-blocks/issues"
+  },
+  "homepage": "https://github.com/Mnak256/co-op-blocks#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
