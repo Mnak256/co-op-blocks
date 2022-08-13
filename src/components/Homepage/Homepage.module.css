@@ -1,0 +1,41 @@
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.createLobbyButton {
+  font-size: 1.5em;
+}
+.lobbyIdInput {
+  font-size: 1.5em;
+}
+.joinLobbySection {
+  margin-top: 2em;
+}
+.onlineLobbiesSection {
+  width: calc(100% - 5em);
+  margin-top: 2em;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+.lobbiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.lobby {
+  max-width: 250px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.joinOnlineLobbyButton {
+  padding: 0.2em 1.2em;
+}
